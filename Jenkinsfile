@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url:'https://github.com/KPkm25/jenkins_assessment.git', branch: 'main' 
+                git url:'https://github.com/pratheek08/Surprise_test_jenkins.git', branch: 'main' 
             }
         }
         
